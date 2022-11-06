@@ -19,7 +19,6 @@ def winner(list: list):
         if value >= max_votes:
             max_votes = value
             winner = key
-
     return f"Winner is {winner}"
 
 
